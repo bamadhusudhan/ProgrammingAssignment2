@@ -2,7 +2,7 @@
 ## 
 
 ## Creates a list containing a set of functions to the environment from which the function 
-## is being called
+## is being called. This function is specifically for providing the ability to invert matrices
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
