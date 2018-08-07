@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions to illustrate lexical scoping in R
+## 
 
-## Write a short comment describing this function
+## Creates a list containing a set of functions to the environment from which the function 
+## is being called
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## A function to check whether the inverse for a paticular matrix has been calculated and 
+## if so return it from the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
